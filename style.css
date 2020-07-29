@@ -1,0 +1,86 @@
+h1 {
+  color: #048ba8;
+  /*background-color: white;*/
+  font-family: 'Raleway', sans-serif;
+  padding: 20px;
+  font-size: 2.5em;
+  line-height: 30px;
+}
+
+h2 {
+  color: #0db39e;
+  /*background-color: white;*/
+  font-family: 'Raleway', sans-serif;
+  padding: 15px;
+  font-size: 1.75em;
+  line-height: 24px;
+}
+
+h3 {
+  color: #16db93;
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  padding: 10px;
+  font-size: 1.5em;
+  line-height: 16px;
+}
+
+html {
+  background: url(/Users/dacoreggio/code/dacoreggio/fullstack-challenges/04-Front-End/01-HTML-and-CSS/04-Responsive-profile/profile/images/background-brick-wall-bricks-brickwork-259915.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /*background-color: #FFF;*/
+  /*background-image: url(/Users/dacoreggio/code/dacoreggio/fullstack-challenges/04-Front-End/01-HTML-and-CSS/04-Responsive-profile/profile/images/background-brick-wall-bricks-brickwork-259915.jpg);
+  background-size: 110%;*/
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  /*margin: 0;*/
+  padding: 0;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background: orange;
+  }
+}
+
+.buttons {
+  color: #DC085C;
+  text-decoration: none;
+  font-size: 30px;
+  display: inline;
+  letter-spacing: 20px;
+
+}
+
+.card {
+  background-color: #EFF5FB;
+  border: 2px solid #E76F51;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px grey;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#header {
+  margin-top: 20px;
+}
